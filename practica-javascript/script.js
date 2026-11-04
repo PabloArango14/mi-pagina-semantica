@@ -77,3 +77,24 @@ function clasificarNotaTernario(num) {
 console.log(clasificarNotaTernario(60));
 console.log(clasificarNotaTernario(70));
 console.log(clasificarNotaTernario(10));
+
+console.log("Aquí va el for");
+
+for (let index = 0; index < tareas.length; index++) {
+  const element = tareas[index];
+  console.log(element);
+}
+
+console.log("Aquí sigue forEach");
+
+tareas.forEach((element) => {
+  console.log(element);
+});
+
+console.log("Aquí se resuelve la tarea Math.random y Math.floor");
+
+const elemntoAleatorio = Math.floor(Math.random() * tareas.length);
+const elementoElegido = tareas[elemntoAleatorio];
+
+console.log("El índice selecionado fue: ", elemntoAleatorio);
+console.log("El elemento elegido fue: ", elementoElegido);
